@@ -1,34 +1,218 @@
 {
+  "userss": [],
   "users": [
-  {
-    "user_id": "L8770069",
-    "description": "Can create user",
-    "role": "Maker",
-    "status": "approved"
-  },
-  {
-    "user_id": "R6779088",
-    "description": "Can approve user",
-    "role": "Checker",
-    "status": "pending"
-  },
-  {
-    "user_id": "R2060231",
-    "description": "Dummy User",
-    "role": "Checker",
-    "status": "rejected"
-  },
-  {
-    "user_id": "M2976999",
-    "description": "Postman User",
-    "role": "Maker",
-    "status": "approved"
-  },
-  {
-    "user_id": "M2976990",
-    "description": "Postman User",
-    "role": "Maker",
-    "status": "approved"
-  }
-]
+    {
+      "user_id": "R6779020",
+      "description": "Can approve user",
+      "role": "Checker",
+      "status": "pending"
+    },
+    {
+      "user_id": "R6779024",
+      "description": "Can approve user asdvsagjsgdjsagdjsagdkjsadjsa aksdjsakjdhakjdhask",
+      "role": "Checker",
+      "status": "pending"
+    },
+    {
+      "user_id": "R2060242",
+      "description": "Dummy User",
+      "role": "Checker",
+      "status": "rejected"
+    },
+    {
+      "user_id": "M2976988",
+      "description": "Postman User1",
+      "role": "Maker",
+      "status": "approved"
+    },
+    {
+      "user_id": "M2976956",
+      "description": "Postman User2",
+      "role": "Maker",
+      "status": "approved"
+    }
+  ],
+  "accountss": [],
+  "accounts": [
+    {
+      "acc_num": "123456789",
+      "type": "A",
+      "name": "ThinkPalm Software Sdn Bhd",
+      "status": "pending"
+    },
+    {
+      "acc_num": "1234223445",
+      "type": "F",
+      "name": "Microware Technologies Sdn Bhd",
+      "status": "pending"
+    },
+    {
+      "acc_num": "1238866489",
+      "type": "F",
+      "name": "Datuk Ali Zamin Ziyad",
+      "status": "approved"
+    },
+    {
+      "acc_num": "13290570787",
+      "type": "F",
+      "name": "Contexta Solutions Sdn Bhd",
+      "status": "approved"
+    },
+    {
+      "acc_num": "12306463431",
+      "type": "A",
+      "name": "Finnacle United Sdn Bhd",
+      "status": "rejected"
+    },
+    {
+      "acc_num": "11236846331",
+      "type": "F",
+      "name": "Emerge Holdings United Sdn Bhd",
+      "status": "pending"
+    },
+    {
+      "acc_num": "12306463831",
+      "type": "A",
+      "name": "United Breweries Sdn Bhd",
+      "status": "approved"
+    },
+    {
+      "acc_num": "12376465331",
+      "type": "A",
+      "name": "Capphine Confectionaries Sdn Bhd",
+      "status": "pending"
+    },
+    {
+      "acc_num": "12536463331",
+      "type": "F",
+      "name": "Starbucks Malaysia Sdn Bhd",
+      "status": "rejected"
+    },
+    {
+      "acc_num": "12936476331",
+      "type": "F",
+      "name": "Subway Tropical Desserts Sdn Bhd",
+      "status": "approved"
+    },
+    {
+      "acc_num": "12365468331",
+      "type": "A",
+      "name": "Tentacle Technologies Sdn Bhd",
+      "status": "approved"
+    },
+    {
+      "acc_num": "12364463731",
+      "type": "A",
+      "name": "Morgan & Stanley Malaysia Sdn Bhd",
+      "status": "pending"
+    },
+    {
+      "acc_num": "12364653391",
+      "type": "F",
+      "name": "Laursen & Turbo Sdn Bhd",
+      "status": "pending"
+    }
+  ],
+  "swiftprofiles": [],
+  "swiftprofile": [
+    {
+      "acc_num": "123456789",
+      "status": "pending",
+      "swift_code": "HSBCHKKHBB"
+    },
+    {
+      "acc_num": "1234223445",
+      "status": "pending",
+      "swift_code": "HSHYJKGHY"
+    },
+    {
+      "acc_num": "123886689",
+      "status": "pending",
+      "swift_code": "HSBCJUIOPM"
+    },
+    {
+      "acc_num": "129050787",
+      "status": "pending",
+      "swift_code": "HSBCHVBCNJ"
+    },
+    {
+      "acc_num": "123646331",
+      "status": "pending",
+      "swift_code": "HSBHJKIOPS"
+    }
+  ],
+  "swiftcodess": [],
+  "swiftcodes": [
+    {
+      "swift_address": "SWXDDCCCSSS",
+      "swift_description": "Dummy text given as swift description",
+      "status": "pending"
+    },
+    {
+      "swift_address": "SWXDDCCCSSS",
+      "swift_description": "Dummy text given as swift description",
+      "status": "pending"
+    },
+    {
+      "swift_address": "SWXDDCCCSSS",
+      "swift_description": "Dummy text given as swift description",
+      "status": "pending"
+    },
+    {
+      "swift_address": "SWXDDCCCSSS",
+      "swift_description": "Dummy text given as swift description",
+      "status": "pending"
+    },
+    {
+      "swift_address": "SWXDDCCCSSSSW",
+      "swift_description": "Dummy text given as swift description",
+      "status": "pending"
+    }
+  ],
+  "transcodess": [],
+  "transcodes": [
+    {
+      "host_transcode": "H445478S8845",
+      "swift_transcode": "SWXXDDCCCSS1",
+      "status": "pending"
+    },
+    {
+      "host_transcode": "H445478S9945",
+      "swift_transcode": "SWXXDDCCCSS2",
+      "status": "approved"
+    },
+    {
+      "host_transcode": "H445478S7745",
+      "swift_transcode": "SWXXDDCCCSS3",
+      "status": "rejected"
+    },
+    {
+      "host_transcode": "H445478S8866",
+      "swift_transcode": "SWXXDDCCCSS4",
+      "status": "approved"
+    },
+    {
+      "host_transcode": "H445478S8844",
+      "swift_transcode": "SWXXDDCCCSS5",
+      "status": "rejected"
+    }
+  ],
+  "expenses" : [
+    {
+      "id": "1",
+      "fromAcc": "Maybank Account",
+      "toAcc": "Wallet",
+      "mode": "ATM Withdrawal",
+      "for": "misc",
+      "desc": "misc"
+    },
+    {
+      "id": "2",
+      "fromAcc": "Wallet",
+      "toAcc": "Laman",
+      "mode": "Cash Pay",
+      "for": "Food",
+      "desc": "Food"
+    }
+  ]
 }
