@@ -1,5 +1,4 @@
 {
-  "userss": [],
   "users": [
     {
       "user_id": "R6779020",
@@ -32,7 +31,6 @@
       "status": "approved"
     }
   ],
-  "accountss": [],
   "accounts": [
     {
       "acc_num": "123456789",
@@ -113,7 +111,6 @@
       "status": "pending"
     }
   ],
-  "swiftprofiles": [],
   "swiftprofile": [
     {
       "acc_num": "123456789",
@@ -141,7 +138,6 @@
       "swift_code": "HSBHJKIOPS"
     }
   ],
-  "swiftcodess": [],
   "swiftcodes": [
     {
       "swift_address": "SWXDDCCCSSS",
@@ -169,7 +165,6 @@
       "status": "pending"
     }
   ],
-  "transcodess": [],
   "transcodes": [
     {
       "host_transcode": "H445478S8845",
@@ -195,24 +190,6 @@
       "host_transcode": "H445478S8844",
       "swift_transcode": "SWXXDDCCCSS5",
       "status": "rejected"
-    }
-  ],
-  "expenses" : [
-    {
-      "id": "1",
-      "fromAcc": "Maybank Account",
-      "toAcc": "Wallet",
-      "mode": "ATM Withdrawal",
-      "for": "misc",
-      "desc": "misc"
-    },
-    {
-      "id": "2",
-      "fromAcc": "Wallet",
-      "toAcc": "Laman",
-      "mode": "Cash Pay",
-      "for": "Food",
-      "desc": "Food"
     }
   ]
 }
