@@ -1,195 +1,692 @@
 {
-  "users": [
-    {
-      "user_id": "R6779020",
-      "description": "Can approve user",
-      "role": "Checker",
-      "status": "pending"
-    },
-    {
-      "user_id": "R6779024",
-      "description": "Can approve user asdvsagjsgdjsagdjsagdkjsadjsa aksdjsakjdhakjdhask",
-      "role": "Checker",
-      "status": "pending"
-    },
-    {
-      "user_id": "R2060242",
-      "description": "Dummy User",
-      "role": "Checker",
-      "status": "rejected"
-    },
-    {
-      "user_id": "M2976988",
-      "description": "Postman User1",
-      "role": "Maker",
-      "status": "approved"
-    },
-    {
-      "user_id": "M2976956",
-      "description": "Postman User2",
-      "role": "Maker",
-      "status": "approved"
-    }
-  ],
-  "accounts": [
-    {
-      "acc_num": "123456789",
-      "type": "A",
-      "name": "ThinkPalm Software Sdn Bhd",
-      "status": "pending"
-    },
-    {
-      "acc_num": "1234223445",
-      "type": "F",
-      "name": "Microware Technologies Sdn Bhd",
-      "status": "pending"
-    },
-    {
-      "acc_num": "1238866489",
-      "type": "F",
-      "name": "Datuk Ali Zamin Ziyad",
-      "status": "approved"
-    },
-    {
-      "acc_num": "13290570787",
-      "type": "F",
-      "name": "Contexta Solutions Sdn Bhd",
-      "status": "approved"
-    },
-    {
-      "acc_num": "12306463431",
-      "type": "A",
-      "name": "Finnacle United Sdn Bhd",
-      "status": "rejected"
-    },
-    {
-      "acc_num": "11236846331",
-      "type": "F",
-      "name": "Emerge Holdings United Sdn Bhd",
-      "status": "pending"
-    },
-    {
-      "acc_num": "12306463831",
-      "type": "A",
-      "name": "United Breweries Sdn Bhd",
-      "status": "approved"
-    },
-    {
-      "acc_num": "12376465331",
-      "type": "A",
-      "name": "Capphine Confectionaries Sdn Bhd",
-      "status": "pending"
-    },
-    {
-      "acc_num": "12536463331",
-      "type": "F",
-      "name": "Starbucks Malaysia Sdn Bhd",
-      "status": "rejected"
-    },
-    {
-      "acc_num": "12936476331",
-      "type": "F",
-      "name": "Subway Tropical Desserts Sdn Bhd",
-      "status": "approved"
-    },
-    {
-      "acc_num": "12365468331",
-      "type": "A",
-      "name": "Tentacle Technologies Sdn Bhd",
-      "status": "approved"
-    },
-    {
-      "acc_num": "12364463731",
-      "type": "A",
-      "name": "Morgan & Stanley Malaysia Sdn Bhd",
-      "status": "pending"
-    },
-    {
-      "acc_num": "12364653391",
-      "type": "F",
-      "name": "Laursen & Turbo Sdn Bhd",
-      "status": "pending"
-    }
-  ],
-  "swiftprofile": [
-    {
-      "acc_num": "123456789",
-      "status": "pending",
-      "swift_code": "HSBCHKKHBB"
-    },
-    {
-      "acc_num": "1234223445",
-      "status": "pending",
-      "swift_code": "HSHYJKGHY"
-    },
-    {
-      "acc_num": "123886689",
-      "status": "pending",
-      "swift_code": "HSBCJUIOPM"
-    },
-    {
-      "acc_num": "129050787",
-      "status": "pending",
-      "swift_code": "HSBCHVBCNJ"
-    },
-    {
-      "acc_num": "123646331",
-      "status": "pending",
-      "swift_code": "HSBHJKIOPS"
-    }
-  ],
-  "swiftcodes": [
-    {
-      "swift_address": "SWXDDCCCSSS",
-      "swift_description": "Dummy text given as swift description",
-      "status": "pending"
-    },
-    {
-      "swift_address": "SWXDDCCCSSS",
-      "swift_description": "Dummy text given as swift description",
-      "status": "pending"
-    },
-    {
-      "swift_address": "SWXDDCCCSSS",
-      "swift_description": "Dummy text given as swift description",
-      "status": "pending"
-    },
-    {
-      "swift_address": "SWXDDCCCSSS",
-      "swift_description": "Dummy text given as swift description",
-      "status": "pending"
-    },
-    {
-      "swift_address": "SWXDDCCCSSSSW",
-      "swift_description": "Dummy text given as swift description",
-      "status": "pending"
-    }
-  ],
-  "transcodes": [
-    {
-      "host_transcode": "H445478S8845",
-      "swift_transcode": "SWXXDDCCCSS1",
-      "status": "pending"
-    },
-    {
-      "host_transcode": "H445478S9945",
-      "swift_transcode": "SWXXDDCCCSS2",
-      "status": "approved"
-    },
-    {
-      "host_transcode": "H445478S7745",
-      "swift_transcode": "SWXXDDCCCSS3",
-      "status": "rejected"
-    },
-    {
-      "host_transcode": "H445478S8866",
-      "swift_transcode": "SWXXDDCCCSS4",
-      "status": "approved"
-    },
-    {
-      "host_transcode": "H445478S8844",
-      "swift_transcode": "SWXXDDCCCSS5",
-      "status": "rejected"
-    }
-  ]
+  "ursrecent": {
+    "code": 200,
+    "message": "success",
+    "urs": [
+      {
+        "id": 1,
+        "urs_year": "2019",
+        "urs_id": "9896767",
+        "urs_createddate": "2019-04-23T11:18:23.000Z",
+        "urs_title": "Regenerate Monthly Report",
+        "urs_details": "Donec malesuada, libero ac efficitur tristique, neque diam placerat ex, sit amet ullamcorper libero turpis eget urna. Nunc volutpat ac ligula viverra scelerisque. Cras lectus felis, sodales a dignissim in, placerat non lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos...",
+        "urs_budget": "3368",
+        "urs_approval": "Approved",
+        "urs_status": "IN REVIEW",
+        "urs_statustext": "Pending with IT PL"
+      },
+      {
+        "id": 2,
+        "urs_year": "2019",
+        "urs_id": "6758589",
+        "urs_createddate": "2019-04-12T00:31:43.000Z",
+        "urs_title": "Aenean pharetra vulputate blandit",
+        "urs_details": "Maecenas at elit quis dolor pulvinar tincidunt. Praesent congue erat magna, a suscipit erat lobortis et. Nulla rhoncus tempor justo, suscipit pellentesque quam congue ac. Aenean rutrum sagittis ligula. In hendrerit aliquet facilisis. Maecenas vitae felis sapien. Nullam euismod arcu vel ante scelerisque vulputate...",
+        "urs_budget": "12480",
+        "urs_approval": "Approved",
+        "urs_status": "REJECTED",
+        "urs_statustext": "No Clear Details Provided"
+      },
+      {
+        "id": 3,
+        "urs_year": "2019",
+        "urs_id": "9896456",
+        "urs_createddate": "2019-02-28T11:42:12.000Z",
+        "urs_title": "Suspendisse bibendum urna felis",
+        "urs_details": "Phasellus ut nulla in lorem cursus maximus. Nunc mattis sodales imperdiet. Phasellus dapibus a sapien ut posuere. Ut vulputate ipsum ut arcu vestibulum porttitor ...",
+        "urs_budget": "5678",
+        "urs_approval": "NotApproved",
+        "urs_status": "IN PROGRESS",
+        "urs_statustext": "IT Task Completed. Testing in progress"
+      },
+      {
+        "id": 4,
+        "urs_year": "2019",
+        "urs_id": "9893423",
+        "urs_createddate": "2019-02-07T00:11:43.000Z",
+        "urs_title": "Regenerate Monthly Report",
+        "urs_details": "Lorem ipsum dolor sit amet, consectetur Pending with IT PL adipiscing elit ...",
+        "urs_budget": "12400",
+        "urs_approval": "NotApproved",
+        "urs_status": "COMPLETED",
+        "urs_statustext": "Closed on 17 Mar 2019"
+      },
+      {
+        "id": 5,
+        "urs_year": "2019",
+        "urs_id": "9899089",
+        "urs_createddate": "2018-12-27T11:31:54.000Z",
+        "urs_title": "Vestibulum ante ipsum",
+        "urs_details": "Aliquam non lectus quis felis commodo finibus. Praesent in elementum magna. Sed egestas facilisis tortor, quis elementum turpis sagittis id. Sed laoreet arcu in sapien scelerisque, et bibendum dolor condimentum. Aliquam lobortis dolor a molestie scelerisque. Etiam a elit vel nisi tempor tincidunt non sit amet massa...",
+        "urs_budget": "67000",
+        "urs_approval": "Approved",
+        "urs_status": "IN REVIEW",
+        "urs_statustext": "Pending with IT PL"
+      },
+      {
+        "id": 6,
+        "urs_year": "2019",
+        "urs_id": "9893241",
+        "urs_createddate": "2018-11-23T00:42:12.000Z",
+        "urs_title": "Integer felis mauris, luctus vel pretium ac",
+        "urs_details": "Donec dignissim libero eget scelerisque semper.",
+        "urs_budget": "54000",
+        "urs_approval": "NotApproved",
+        "urs_status": "REJECTED",
+        "urs_statustext": "No Clear Details Provided"
+      },
+      {
+        "id": 7,
+        "urs_year": "2019",
+        "urs_id": "987654",
+        "urs_createddate": "2018-10-12T11:11:45.000Z",
+        "urs_title": "In pharetra enim et dictum finibus",
+        "urs_details": "Lorem ipsum dolor sit amet, consectetur Pending with IT PL adipiscing elit ...",
+        "urs_budget": "3368",
+        "urs_approval": "Approved",
+        "urs_status": "IN PROGRESS",
+        "urs_statustext": "IT Task Completed. Testing in progress"
+      },
+      {
+        "id": 8,
+        "urs_year": "2019",
+        "urs_id": "9896745",
+        "urs_createddate": "2018-09-11T00:31:12.000Z",
+        "urs_title": "Regenerate Monthly Report",
+        "urs_details": "Duis facilisis diam sit amet est facilisis tincidunt. Cras mattis, lectus non porttitor vulputate...",
+        "urs_budget": "3368",
+        "urs_approval": "NotApproved",
+        "urs_status": "COMPLETED",
+        "urs_statustext": "Closed on 17 Mar 2019"
+      },
+      {
+        "id": 9,
+        "urs_year": "2019",
+        "urs_id": "9890978",
+        "urs_createddate": "2018-07-18T11:42:34.000Z",
+        "urs_title": "Regenerate Monthly Report",
+        "urs_details": "Lorem ipsum dolor sit amet, consectetur Pending with IT PL adipiscing elit ...",
+        "urs_budget": "3368",
+        "urs_approval": "Approved",
+        "urs_status": "IN REVIEW",
+        "urs_statustext": "Pending with IT PL"
+      },
+      {
+        "id": 10,
+        "urs_year": "2019",
+        "urs_id": "9892344",
+        "urs_createddate": "2018-06-20T00:23:56.000Z",
+        "urs_title": "Morbi luctus ipsum non dolor",
+        "urs_details": "Donec maximus ligula nec velit accumsan dignissim. Proin gravida magna non molestie laoreet ...",
+        "urs_budget": "3368",
+        "urs_approval": "NotApproved",
+        "urs_status": "IN REVIEW",
+        "urs_statustext": "No Clear Details Provided"
+      }
+    ]
+  },
+
+  "departments": {
+    "code": 200,
+    "message": "success",
+    "depts": [
+      {
+        "id": 1,
+        "name": "Group Technology"
+      },
+      {
+        "id": 2,
+        "name": "Core Banking"
+      },
+      {
+        "id": 3,
+        "name": "Regional Mobile Banking Platform"
+      },
+      {
+        "id": 4,
+        "name": "International Shared Services"
+      },
+      {
+        "id": 5,
+        "name": "Investment Banking"
+      },
+      {
+        "id": 6,
+        "name": "Capital Marketing"
+      },
+      {
+        "id": 7,
+        "name": "Research and Development"
+      }
+    ]
+  },
+
+  "budgets": {
+    "code": 200,
+    "message": "success",
+    "depts": [
+      {
+        "id": 1,
+        "name": "-All Departments-",
+        "approved": 1870000,
+        "utilized": 1230000,
+        "available": 1120100
+      },
+      {
+        "id": 2,
+        "name": "Group Technology",
+        "approved": 793191,
+        "utilized": 334568,
+        "available": 458623
+      },
+      {
+        "id": 3,
+        "name": "Core Banking",
+        "approved": 803191,
+        "utilized": 184568,
+        "available": 618623
+      },
+      {
+        "id": 4,
+        "name": "Regional Mobile Banking Platform",
+        "approved": 650000,
+        "utilized": 160000,
+        "available": 490000
+      },
+      {
+        "id": 5,
+        "name": "International Shared Services",
+        "approved": 270000,
+        "utilized": 110000,
+        "available": 160000
+      },
+      {
+        "id": 6,
+        "name": "Investment Banking",
+        "approved": 450000,
+        "utilized": 360000,
+        "available": 90000
+      },
+      {
+        "id": 7,
+        "name": "Capital Marketing",
+        "approved": 200000,
+        "utilized": 120000,
+        "available": 80000
+      },
+      {
+        "id": 8,
+        "name": "Research and Development",
+        "approved": 450000,
+        "utilized": 120000,
+        "available": 330000
+      }
+    ]
+  },
+
+  "durations": {
+    "code": 200,
+    "message": "success",
+    "durations": [
+      {
+        "type":"quarterly",
+        "id": 1,
+        "name": "Q1",
+        "start": "2019-01-01",
+        "end": "2019-03-31",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type":"quarterly",
+        "id": 2,
+        "name": "Q2",
+        "start": "2019-04-01",
+        "end": "2019-06-30",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type":"quarterly",
+        "id": 3,
+        "name": "Q3",
+        "start": "2019-07-01",
+        "end": "2019-09-30",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type":"quarterly",
+        "id": 4,
+        "name": "Q4",
+        "start": "2019-10-01",
+        "end": "2019-12-31",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+
+      {
+        "type": "monthly",
+        "id": 5,
+        "name": "January",
+        "start": "2019-01-01",
+        "end": "2019-01-31",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 6,
+        "name": "February",
+        "start": "2019-02-01",
+        "end": "2019-02-28",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 7,
+        "name": "March",
+        "start": "2019-03-01",
+        "end": "2019-03-31",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 8,
+        "name": "April",
+        "start": "2019-04-01",
+        "end": "2019-04-30",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 9,
+        "name": "May",
+        "start": "2019-05-01",
+        "end": "2019-05-31",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 10,
+        "name": "June",
+        "start": "2019-06-01",
+        "end": "2019-06-30",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 11,
+        "name": "July",
+        "start": "2019-07-01",
+        "end": "2019-07-31",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 12,
+        "name": "August",
+        "start": "2019-08-01",
+        "end": "2019-08-31",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 13,
+        "name": "September",
+        "start": "2019-09-01",
+        "end": "2019-09-30",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 14,
+        "name": "October",
+        "start": "2019-10-01",
+        "end": "2019-10-31",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 15,
+        "name": "November",
+        "start": "2019-11-01",
+        "end": "2019-11-30",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "monthly",
+        "id": 16,
+        "name": "December",
+        "start": "2019-12-01",
+        "end": "2019-12-31",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+
+      {
+        "type": "weekly", 
+        "id": 17,
+        "name": "Week 1",
+        "start": "2019-01-01",
+        "end": "2019-01-07",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "weekly", 
+        "id": 18,
+        "name": "Week 2",
+        "start": "2019-01-08",
+        "end": "2019-01-14",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "weekly", 
+        "id": 19,
+        "name": "Week 3",
+        "start": "2019-01-15",
+        "end": "2019-01-21",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "weekly", 
+        "id": 20,
+        "name": "Week 4",
+        "start": "2019-01-22",
+        "end": "2019-01-28",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      },
+      {
+        "type": "weekly", 
+        "id": 21,
+        "name": "Week 5",
+        "start": "2019-01-29",
+        "end": "2019-01-31",
+        "urscounts": {
+          "total": 2877,
+          "rejected": 965,
+          "inreview": 120,
+          "business": 70,
+          "it": 30,
+          "inprogress": 843,
+          "closed": 949
+        }
+      }
+    ]
+  },
+
+  "filtergroups": {
+    "code": 200,
+    "message": "success",
+    "groups": [
+      {
+        "id": 1,
+        "key": "fg_urstype",
+        "name": "URS Type",
+        "type": "multi",
+        "values": [
+          {
+            "name": "All"
+          },
+          {
+            "name": "New"
+          },
+          {
+            "name": "Enhancement"
+          },
+          {
+            "name": "Adhoc"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "key": "fg_budget",
+        "name": "Budget",
+        "type": "range",
+        "range_start": 786.00,
+        "range_end": 30000
+      },
+      {
+        "id": 3,
+        "key": "fg_costcenter",
+        "name": "Cost Center",
+        "type": "multi",
+        "values": [
+          {
+            "name": "All"
+          },
+          {
+            "name": "Sector GDDS"
+          },
+          {
+            "name": "CMPO"
+          },
+          {
+            "name": "IDBE"
+          },
+          {
+            "name": "Lorem ipsum"
+          },
+          {
+            "name": "Dolor sit"
+          },
+          {
+            "name": "Amet"
+          },
+          {
+            "name": "Consectetur"
+          },
+          {
+            "name": "Adipiscing elit"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "key": "fg_sector",
+        "name": "Sector Filter",        
+        "type": "multi",
+        "values": [
+          {
+            "name": "All"
+          },
+          {
+            "name": "Sector GDDS"
+          },
+          {
+            "name": "CMPO"
+          },
+          {
+            "name": "IDBE"
+          },
+          {
+            "name": "Lorem ipsum"
+          },
+          {
+            "name": "Dolor sit"
+          },
+          {
+            "name": "Amet"
+          },
+          {
+            "name": "Consectetur"
+          },
+          {
+            "name": "Adipiscing elit"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "key": "fg_applicationarea",
+        "name": "Application Area",        
+        "type": "multi",
+        "values": [
+        ]
+      },
+      {
+        "id": 6,
+        "key": "fg_status_approval",
+        "name": "Status & Approval",        
+        "type": "multi",
+        "values": [
+        ]
+      }
+    ]
+  }
 }
